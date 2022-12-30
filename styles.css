@@ -1,1 +1,28 @@
-styles.css
+body{
+    background-color: yellowgreen;
+}
+.app{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 1vw;
+    justify-content: space-between;
+    
+}
+.kit{
+    padding: 2em;
+    background-color: brown;
+    
+}
+span{
+    display: block;
+    color: whitesmoke;
+    /*text-transform: capitalize;*/
+    margin:1em 0  0 1.2em;
+}
+.active{
+    background-color: whitesmoke;
+    box-shadow: 2px 6px 20px teal inset;
+    transition: .2s;
+    color: brown;
+}

@@ -1,1 +1,33 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="container">
+    <div class="app">
+    <div class="kit">Snare 1<span>a</span></div>
+    <div class="kit">Snare 2<span>s</span></div>
+    <div class="kit">Kick 1<span>d</span></div>
+    <div class="kit">Kick 2<span>f</span></div>
+    <div class="kit">Hi-hat 1<span>g</span></div>
+    <div class="kit">Hi-hat 2<span>h</span></div>
+    <div class="kit">Clap 1<span>j</span></div>
+    <div class="kit">Clap 2<span>k</span></div>
+    </div>
+ 
+    </div>
+    <audio class="clap1"data-key='j' src="/instruments/Clap 013.wav"></audio>
+    <audio class="clap2"data-key='k' src="/instruments/Clap 018.wav"></audio>
+    <audio class="hihat1"data-key='g' src="/instruments/HiHat Closed 005 Tight and Wide.wav"></audio>
+    <audio class="hihat2" data-key='h'src="/instruments/HiHat Closed 010 Class.wav"></audio>
+    <audio class="kick1"data-key='d' src="/instruments/Kick 004 Blam.wav"></audio>
+    <audio class="kick2"data-key='f' src="/instruments/Kick 008 Vinyl.wav"></audio>
+    <audio class="snare1" data-key='a'src="/instruments/Snare 002.wav"></audio>
+    <audio class="snare2"data-key='s' src="/instruments/Snare 006.wav"></audio>
+</body>
+<script src="app.js"></script>
+</html>
